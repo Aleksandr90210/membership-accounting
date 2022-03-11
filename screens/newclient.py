@@ -27,4 +27,9 @@ class NewClient(Screen):
         if len(sometel) == 12:
             print('Введен верный номер: ', sometel)
         self.sometel = sometel
+        c
+   def update(self):
+        client = [self.id_client, self.data, self.someS, self.someName, self.somefather, self.sometel]
+
+   print(self.id_client)
 
